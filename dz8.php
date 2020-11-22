@@ -61,7 +61,7 @@ class Clients
 
     }
 
-//2) Список клиентов который активны (поле is_active)
+    //2) Список клиентов который активны (поле is_active)
     public function try2()
     {
 
@@ -105,7 +105,7 @@ class Clients
     }
 
 
-//5) Сколько клиентов у вас в базе всего
+    //5) Сколько клиентов у вас в базе всего
     public function try5()
     {
 
@@ -224,7 +224,7 @@ class Clients
         $this->db->query('DELETE FROM  `clients` WHERE `clients`.`is_active` = 0');
     }
 
-//15) Удалить всех созданных вами клиентов
+    //15) Удалить всех созданных вами клиентов
     public function try15()
     {
         $this->db->query('TRUNCATE TABLE  clients');
